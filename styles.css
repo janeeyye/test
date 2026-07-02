@@ -341,3 +341,55 @@ a:hover { text-decoration: underline; }
   color: #777;
   text-align: center;
 }
+
+.featured-content {
+  margin-top: 40px;
+}
+
+.featured-content h2 {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.featured-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+}
+
+.featured-card {
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  color: inherit;
+  transition: all .2s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #ececec;
+  font-size: 11px;
+  margin-bottom: 10px;
+}
+
+.featured-card h3 {
+  margin: 0 0 8px;
+  font-size: 16px;
+}
+
+.featured-card p {
+  margin: 0;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.5;
+}
